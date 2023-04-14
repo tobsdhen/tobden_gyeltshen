@@ -1,0 +1,66 @@
+body{
+color: #fff;
+background-color: #808080;
+}
+h1 {
+text-align: center;
+}
+  
+#employee-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0;
+}
+
+#employee-form input {
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+#employee-form button {
+	margin: 10px 0;
+	padding: 5px;
+	width: 100px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#employee-table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#employee-table th,
+#employee-table td {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+#employee-table th {
+	background-color: gray;
+	color: white;
+}
+
+.edit-btn,
+.delete-btn {
+	padding: 5px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.edit-btn {
+	background-color: blue;
+}
+
+.delete-btn {
+	background-color: red;
+}
